@@ -22,7 +22,11 @@ def auto_login(driver, email, password):
 if __name__ == "__main__":
     # declare path to chromedriver executable (located in same folder)
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    driver = webdriver.Chrome('{0}/chromedriver'.format(dir_path))
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--headless')
+    driver = webdriver.Chrome(chrome_options=chrome_options,
+                                executable_path='{0}/chromedriver'.format(dir_path))
     # get credentials from open-source-safe environment variables
     email = os.environ.get('SO_USR')
     password = os.environ.get('SO_PWD')

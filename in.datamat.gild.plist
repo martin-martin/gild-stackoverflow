@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+        <string>in.datamat.gild</string>
+    <key>WorkingDirectory</key>
+        <string>/Users/martin/Documents/projects/gold_badge/</string>
+    <key>ProgramArguments</key>
+        <array>
+            <string>/bin/bash</string>
+            <string>-c</string>
+            <string>cwd=`pwd`;source $cwd/env/bin/activate;python $cwd/gold_badge.py;deactivate</string>
+        </array>
+    <key>StartCalendarInterval</key>
+        <array>
+            <dict>
+                <key>Weekday</key>
+                <integer>1</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Weekday</key>
+                <integer>2</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Weekday</key>
+                <integer>3</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Weekday</key>
+                <integer>4</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Weekday</key>
+                <integer>5</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Weekday</key>
+                <integer>6</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Weekday</key>
+                <integer>7</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Minute</key>
+                <integer>0</integer>
+            </dict>
+        </array>
+    <key>StandardErrorPath</key>
+        <string>/Users/martin/Documents/projects/gold_badge/log.err</string>
+</dict>
+</plist>
