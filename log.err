@@ -1,0 +1,979 @@
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.6 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.0 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 35, in <module>
+    driver = auto_login(driver, email, password)
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 11, in auto_login
+    driver.find_element_by_xpath("//input[@id='email']").send_keys(email)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 393, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/Users/martin/Documents/projects/gold_badge/env/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.2 x86_64)
+
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/martin/Documents/projects/gold_badge/gold_badge.py", line 3, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
